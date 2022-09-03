@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Ukeme Silas",
+        "age": 24,
+        "position": "Director of Information",
+        "married": true
+    },
+
+    {
+        "name": "Ndiana Nenty",
+        "age": 22,
+        "position": "Director of Academics",
+        "married": false
+    },
+
+    {
+        "name": "Victor Ephraim",
+        "age": 21,
+        "position": "Director of Transport",
+        "married": false
+    }
+]
