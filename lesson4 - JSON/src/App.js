@@ -33,12 +33,11 @@ function App() {
   // fetching APIs
 
   const fetcher = async () => {
-    const fetched = await fetch('https://jsonplaceholder.typicode.com/posts')
-      .then(fetch => fetch.json())
-      
-    // console.log(typeof fetched)
 
-      return fetched.map(obj => {
+    const fetched = await fetch('https://jsonplaceholder.typicode.com/posts')
+      .then(fetch => fetch.json());
+    
+      return Array.from(fetched).map(obj => {
       // console.log(typeof obj.title)
       return <h1>{obj.title}</h1>
     })
